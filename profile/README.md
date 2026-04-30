@@ -70,7 +70,8 @@ Public verifier: [prmaat.com/verify](https://prmaat.com/verify)
 
 ## Who's behind it
 
-PrMaat is built by [Michael Gad](https://github.com/micoul81), an
+PrMaat is built by [Michael Gad](https://github.com/micoul81)
+([LinkedIn](https://eg.linkedin.com/in/michael-awad-b2025419b)), an
 Egyptian-French founder. Previous work:
 
 - **[Terre d'Égypte](https://www.terdegypt.com/en)** — Egypt-based tour
