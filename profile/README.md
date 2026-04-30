@@ -70,11 +70,12 @@ Public verifier: [prmaat.com/verify](https://prmaat.com/verify)
 
 ## Who's behind it
 
-PrMaat is built by [Mike Gad](https://github.com/micoul81), an Egyptian-French
-founder. Previous work:
+PrMaat is built by [Michael Gad](https://github.com/micoul81), an
+Egyptian-French founder. Previous work:
 
-- **[Terre d'Égypte](https://terredegypte.com)** — #1 tour operator on
-  TripAdvisor for Egypt
+- **[Terre d'Égypte](https://www.terdegypt.com/en)** — Egypt-based tour
+  operator, top-ranked on
+  [TripAdvisor for Cairo](https://www.tripadvisor.fr/Attraction_Review-g294201-d11658841-Reviews-Terre_d_Egypte-Cairo_Cairo_Governorate.html)
 - **[TripComposer](https://tripcomposer.fr)** — travel-tech B2B platform, France
 
 PrMaat is the first dev-infra product from this lineage. The Egyptian framing
