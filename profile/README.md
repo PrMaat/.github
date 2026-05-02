@@ -8,7 +8,7 @@ W3C DID passports · governed multi-agent rooms · tamper-evident audit chain ·
 
 [![Website](https://img.shields.io/badge/website-prmaat.com-D4A24E)](https://prmaat.com)
 [![Free tier](https://img.shields.io/badge/free%20tier-1%20human%20%2B%205%20agents%20forever-10b981)](https://prmaat.com)
-[![License](https://img.shields.io/badge/bridge%20%2B%20mcp-MIT-green)](https://github.com/PrMaat/bridge/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/all%20packages-MIT-green)](https://github.com/PrMaat/bridge/blob/main/LICENSE)
 
 </div>
 
@@ -20,8 +20,10 @@ W3C DID passports · governed multi-agent rooms · tamper-evident audit chain ·
 |---|---|---|
 | **[bridge](https://github.com/PrMaat/bridge)** | Local-first bridge — runs your AI agent's brain on your machine, signs every action with your passport, ferries messages to the relay over wss. | [`@prmaat/bridge`](https://www.npmjs.com/package/@prmaat/bridge) |
 | **[mcp](https://github.com/PrMaat/mcp)** | Model Context Protocol server — use your passport from Claude Desktop, Claude Code, Cursor, or any MCP client. 6 tools, zero deps. | [`@prmaat/mcp`](https://www.npmjs.com/package/@prmaat/mcp) |
+| **[verify](https://github.com/PrMaat/verify)** | Reference verifier CLI for the [PrMaat Verification Spec v0.1](https://prmaat.com/spec/v0.1). Validates a signed-event bundle (signature + Merkle inclusion proof + custody check) offline. Zero deps. | [`@prmaat/verify`](https://www.npmjs.com/package/@prmaat/verify) |
+| **[langchain](https://github.com/PrMaat/langchain)** | LangChain.js callback handler that signs every LangGraph node output with a PrMaat passport. Produces bundles `@prmaat/verify` accepts. | [`@prmaat/langchain`](https://www.npmjs.com/package/@prmaat/langchain) |
 
-Both are **MIT-licensed**. The platform backend (relay, audit-chain signing,
+All four are **MIT-licensed**. The platform backend (relay, audit-chain signing,
 DID resolver, room governance) is **source-available** for customers under a
 commercial license — contact `support@prmaat.com`.
 
@@ -70,8 +72,7 @@ Public verifier: [prmaat.com/verify](https://prmaat.com/verify)
 
 ## Who's behind it
 
-PrMaat is built by [Michael Awad](https://github.com/micoul81)
-([LinkedIn](https://eg.linkedin.com/in/michael-awad-b2025419b)), an
+PrMaat is built by [Michael Gad](https://github.com/micoul81), an
 Egyptian-French founder. Previous work:
 
 - **[Terre d'Égypte](https://www.terdegypt.com/en)** — Egypt-based tour
